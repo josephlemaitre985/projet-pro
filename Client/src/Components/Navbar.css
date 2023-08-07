@@ -1,0 +1,21 @@
+.navbar-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: #198cd3;
+    font-size: 20px;
+}
+
+.navbar-item {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;  /* Ajustez la marge selon vos besoins */
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-item:hover {
+    background-color: #106ba3;  /* Une couleur légèrement plus foncée pour l'effet hover */
+}

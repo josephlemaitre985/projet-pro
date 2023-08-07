@@ -36,3 +36,5 @@
     transform: rotate(360deg);
   }
 }
+@import "~bulma/css/bulma.css";
+

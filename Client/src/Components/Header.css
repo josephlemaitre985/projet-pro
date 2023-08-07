@@ -1,0 +1,31 @@
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;  /* Réduction du rembourrage vertical tout en conservant le rembourrage horizontal */
+    background-color: #198cd3;
+    color: white;
+    height: 100px; /* Par exemple */
+
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-container img {
+    max-height: 150px;
+    width: auto;
+    border-radius: 50%;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+
+
+  
+  .site-title {
+    margin-left: 40px;
+  }
+  
