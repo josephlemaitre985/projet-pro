@@ -1,0 +1,38 @@
+/* Réinitialisation de certains styles pour garantir la cohérence */
+body, h1 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif; /* Assurez-vous d'avoir importé la police Roboto */
+}
+
+/* Style global pour la page BarsAndClubs */
+.bars-and-clubs-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    /*height: 100vh;*/
+    
+}
+
+/* Titre central */
+.bars-and-clubs-title {
+    text-align: center;
+    color: #2C3E50;
+    font-size: 2.5rem;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+/* Style pour la div qui contient la carte */
+.bars-and-clubs-map-container {
+    width: 90%; /* ou une largeur fixe selon vos besoins, par ex. 800px */
+   
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    margin-bottom: 20px;
+    flex-grow: 1;
+}
+

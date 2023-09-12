@@ -1,0 +1,91 @@
+/* Intégration de la police Roboto */
+.homepage-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    font-family: 'Roboto', sans-serif; /* Utilisation de la police Roboto */
+}
+
+.section {
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    background-color: #f4f4f9;
+    padding: 20px;
+    max-width: 90vw;
+    margin: 20px 0;
+}
+
+.description-section {
+    text-align: center;
+    background: linear-gradient(135deg, #f4f4f9, #e0e0e7);
+}
+
+.description-section h1 {
+    margin-bottom: 10px;
+    font-size: 2em;
+    font-weight: 700;
+    color: #333;
+}
+
+.description-section h2 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: #555;
+}
+
+.description-section p {
+    line-height: 1.6;
+    color: #777;
+}
+
+.find-my-spot-section {
+    text-align: center;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.find-my-spot-section button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-color: #2C3E50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.find-my-spot-section button:hover {
+    background-color: #34495E;
+}
+
+.preview-section {}
+
+.footer-section {}
+
+.slick-slide {
+    height: 300px;
+    overflow: hidden;
+}
+
+.slick-slide img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.slide-content {
+    position: relative;
+}
+
+.slide-text {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 5px 10px;
+    border-radius: 5px;
+}

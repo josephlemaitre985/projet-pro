@@ -1,0 +1,76 @@
+/* Classe pour contenir toute la page */
+.page-container {
+    display: flex;
+    flex-direction: column; /* Enfants (header, content, footer) en colonne */
+    min-height: 100vh; /* Hauteur minimale à la hauteur de la fenêtre de visualisation */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body, h1 {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.profile-title {
+    text-align: center;
+    color: #2C3E50;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.profile-container {
+    width: 400px; /* Augmentation de la largeur */
+    margin: 40px auto;
+    padding: 30px; /* Plus de padding */
+    border: 1px solid #e6e6e6;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', sans-serif;
+    flex: 1;
+    background-color: white; /* Couleur de fond blanche pour faire ressortir le formulaire */
+    border-radius: 8px; /* Coins arrondis pour un look plus moderne */
+}
+
+label {
+    display: block;
+    margin: 15px 0 5px;
+    color: #555;
+}
+
+input {
+    width: 100%;
+    padding: 10px 8px; /* Augmentation du padding pour de plus grands champs de texte */
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none; /* Suppression de l'outline pour un style plus épuré */
+    transition: border-color 0.3s ease; /* Animation douce lors de la focalisation */
+}
+
+input:focus {
+    border-color: #2C3E50;
+}
+
+.buttons-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-type-selection {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.user-type-selection button {
+    flex: 1;
+    margin: 0 5px;
+}
+
+button.active {
+    background-color: #34495E;
+    font-weight: bold;
+}

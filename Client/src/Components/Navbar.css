@@ -2,20 +2,23 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: calc(100% - 40px);    /* 20px de marge de chaque côté */
+    margin: 0 auto;              /* Centre la navbar horizontalement */
     padding: 10px;
-    background-color: #198cd3;
+    border-radius: 10px;         /* Bords arrondis */
+    background-color: #A8E0E0;
     font-size: 20px;
 }
 
 .navbar-item {
-    color: white;
+    color: #333333;
     text-decoration: none;
-    margin: 0 15px;  /* Ajustez la marge selon vos besoins */
+    margin: 0 15px;
     padding: 5px 10px;
     border-radius: 4px;
     transition: background-color 0.3s ease;
 }
 
 .navbar-item:hover {
-    background-color: #106ba3;  /* Une couleur légèrement plus foncée pour l'effet hover */
+    background-color: #106ba3;
 }

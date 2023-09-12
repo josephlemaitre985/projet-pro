@@ -1,0 +1,21 @@
+.footer-container {
+  width: 100%;
+  padding: 20px 0;
+  background-color: #A8E0E0; /* Vous pouvez ajuster la couleur d'arrière-plan selon vos besoins */
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icons a {
+  color: #fff; /* Couleur blanche pour les icônes sociales */
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #f7f7f9; /* Changement de couleur lors du survol */
+}
